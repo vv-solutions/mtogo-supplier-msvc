@@ -1,4 +1,4 @@
-package com.example;
+package dk.vv.mtogo.supplier.msvc.example;
 
 import org.eclipse.microprofile.graphql.DefaultValue;
 import org.eclipse.microprofile.graphql.Description;
