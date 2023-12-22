@@ -1,5 +1,6 @@
 package dk.vv.mtogo.supplier.msvc.api;
 
+import dk.vv.common.data.transfer.objects.common.AddressDTO;
 import dk.vv.mtogo.supplier.msvc.dtos.SupplierDTO;
 import dk.vv.mtogo.supplier.msvc.facades.SupplierFacade;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -61,8 +62,8 @@ public class DomainResource {
     @Query("getAddressBySupplierId")
     @Description("Get address by supplier id")
     @NonBlocking
-    public SupplierDTO getAddressBySupplierId(@Name("supplierId") int id) {
-        return facade.getSupplierById(id);
+    public AddressDTO getAddressBySupplierId(@Name("supplierId") int id) {
+        return facade.getAddressBySupplierId(id);
     }
 
 
