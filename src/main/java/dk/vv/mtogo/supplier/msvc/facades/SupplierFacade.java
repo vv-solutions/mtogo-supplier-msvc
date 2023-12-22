@@ -1,7 +1,7 @@
 package dk.vv.mtogo.supplier.msvc.facades;
 
 import dk.vv.common.data.transfer.objects.common.AddressDTO;
-import dk.vv.mtogo.supplier.msvc.dtos.SupplierDTO;
+import dk.vv.common.data.transfer.objects.supplier.SupplierDTO;
 import dk.vv.mtogo.supplier.msvc.pojos.Supplier;
 import dk.vv.mtogo.supplier.msvc.repositories.SupplierRepository;
 import jakarta.enterprise.context.ApplicationScoped;

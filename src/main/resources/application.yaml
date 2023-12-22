@@ -37,9 +37,11 @@ quarkus:
   quarkus:
     log:
       level: INFO
-
       console:
         json: false
+    http:
+      port: 8086
+
     hibernate-orm:
       database:
         default-schema: "supplier"

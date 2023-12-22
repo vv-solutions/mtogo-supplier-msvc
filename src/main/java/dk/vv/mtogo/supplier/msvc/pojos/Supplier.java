@@ -1,7 +1,7 @@
 package dk.vv.mtogo.supplier.msvc.pojos;
 
 
-import dk.vv.mtogo.supplier.msvc.dtos.SupplierDTO;
+import dk.vv.common.data.transfer.objects.supplier.SupplierDTO;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 
